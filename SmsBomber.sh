@@ -27,9 +27,9 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
+        echo 'Introducing SmsBomber'
     else
-        figlet TBomb
+        figlet SmsBomber
     fi
     if ! [ -x "$(command -v toilet)" ]; then
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32mSpeedX \e[0m"
@@ -38,7 +38,7 @@ banner() {
         toilet -f mono12 -F border SpeedX
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Telegram: https://t.me/TBombChat \e[0m"
+    echo -e "\e[1;32m   Instagram:https://www.instagram.com/_b_t_w_i_a_m_a_a_f_u__ \e[0m"
     echo -e "\e[4;32m   YouTube: https://www.youtube.com/c/SpeedXTech \e[0m"
     echo " "
 
@@ -97,7 +97,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By SpeedX > .update
+    echo This Script Was Made By AafuSam > .update
     echo 'Requirements Installed....'
     pause
 fi
