@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/TheSpeedX/TBomb"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
+  <a href="https://github.com/aafusam/SmsBomber"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
   <br>
-  TBomb v2.0b
+  SmsBomber v2.0b
   <br>
 </h1>
 
@@ -13,8 +13,8 @@
 
 
 > ## Deprecation Warning:
-> **All TBomb versions below v2.0 will no longer work after 14-11-2020.**  
-**All TBomb users need to update to v2.0 ASAP**
+> **All SmsBomber versions below v2.0 will no longer work after 14-11-2020.**  
+**All SmsBomber users need to update to v2.0 ASAP**
 
 **Due to overuse of script, a bunch APIs have been taken offline. It is okay if you do not receive all the messages.**
 
@@ -22,7 +22,7 @@
 - The application requires active internet connection to contact the APIs
 - You would not be charged for any SMS/calls dispatched as a consequence of this script
 - For best performance, use single thread with considerable delay time
-- Always ensure that you are using the latest version of TBomb and have Python 3
+- Always ensure that you are using the latest version of SmsBomber and have Python 3
 - This application must not be used to cause harm/discomfort/trouble to others
 - By using this, you agree that you cannot hold the contributors responsible for any misuse
 
