@@ -51,9 +51,9 @@ def clr():
 def bann_text():
     clr()
     logo = """
-     SSSSSSSSSSSSSsSSSS    BBBBBBBBBBBBBBBBBBBBB B  
-     SSS            SSS    BBBBBBBBBBBBBBBBBBBBBB B B
-     SSS            SSS    BB                     BBB
+     SSSSSSSSSSSSSSSSS     BBBBBBBBBBBBBBBBBBBBB B  
+     SSS           SSS      BBBBBBBBBBBBBBBBBBBBBB B B
+     SSS           SSS    BB                     BBB
      SSS                   BB                     BBB
      SSS                   BB                     BBB
      SSS                   BB                     BBB
