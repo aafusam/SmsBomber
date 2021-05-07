@@ -216,7 +216,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("TBomb was created by AafuSam")
+    mesgdcrt.SuccessMessage("SmsBomber was created by AafuSam")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -376,7 +376,7 @@ parser.add_argument("-u", "--update", action="store_true",
 parser.add_argument("-c", "--contributors", action="store_true",
                     help="show current SmsBomber contributors")
 parser.add_argument("-v", "--version", action="store_true",
-                    help="show current TBomb version")
+                    help="show current SmsBomber version")
 
 
 if __name__ == "__main__":
