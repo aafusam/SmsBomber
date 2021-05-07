@@ -125,7 +125,7 @@ do
         echo -e "\e[1;34m Downloading Latest Files..."
         rm -f .update
         $PYTHON bomber.py --update
-        echo -e "\e[1;34m RUN TBomb Again..."
+        echo -e "\e[1;34m RUN SmsBomber Again..."
         pause
         exit
     elif [ $ch -eq 5 ];then
