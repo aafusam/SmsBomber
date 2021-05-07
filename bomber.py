@@ -51,15 +51,20 @@ def clr():
 def bann_text():
     clr()
     logo = """
-   ████████ █████                 ██
-   ▒▒▒██▒▒▒ ██▒▒██                ██
-      ██    ██  ██        ██   ██ ██
-      ██    █████▒  ████  ███ ███ █████
-      ██    ██▒▒██ ██  ██ ██▒█▒██ ██▒▒██
-      ██    ██  ██ ██  ██ ██ ▒ ██ ██  ██
-      ██    █████▒ ▒████▒ ██   ██ █████▒
-      ▒▒    ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
-                                         """
+     SSSSSSSSSSSSSSSSSSS   BBBBBBBBBBBBBBBBBBBBB B  
+     SSS             SSS   BBBBBBBBBBBBBBBBBBBBBB B B
+     SSS             SSS   BB                     BBB
+     SSS                   BB                     BBB
+     SSS                   BB                     BBB
+     SSS                   BB                     BBB
+     SSSSSSSSSSSSSSSSS     BBBBBBBBBBBBBBBBBBBBBBBB B
+                   SSS     BBBBBBBBBBBBBBBBBBBBBBBB B
+                   SSS     BB                     BBB
+                   SSS     BB                     BBB
+     SSS           SSS     BB                     BBB
+     SSS           SSS     BBBBBBBBBBBBBBBBBBBBBB B
+     SSSSSSSSSSSSSSSSS     BB BBBBBBBBBBBBBBBBB B B
+     """
     version = "Version: "+__VERSION__
     contributors = "Contributors: "+" ".join(__CONTRIBUTORS__)
     print(random.choice(ALL_COLORS) + logo + RESET_ALL)
@@ -89,13 +94,13 @@ def do_zip_update():
     # Unzip and overwrite the current folder
 
     if success:
-        mesgdcrt.SuccessMessage("TBomb was updated to the latest version")
+        mesgdcrt.SuccessMessage("SmsBomber was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update SmsBomber.")
         mesgdcrt.WarningMessage(
-            "Grab The Latest one From https://github.com/TheSpeedX/TBomb.git")
+            "Grab The Latest one From https://github.com/aafusam/SmsBomber.git")
 
     sys.exit()
 
